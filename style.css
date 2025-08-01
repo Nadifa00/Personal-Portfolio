@@ -1,0 +1,276 @@
+/*General Styling*/
+#about-me h2,
+#languages h2,
+#projects h2,
+#interests h2,
+#contacts h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family:monospace;
+  color: green;
+  margin: 0;
+  
+}
+#about-me,
+#languages,
+#projects,
+#interests,
+#contacts {
+  margin-bottom: 80px;
+}
+
+
+.website {
+  margin: 10px 14px;
+  box-shadow: 4px 4px 10px rgb(218, 216, 216);
+  padding: 8px 10px;
+  border-radius: 10px;
+
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px green;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.my-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+  
+}
+a {
+  text-decoration: none;
+  color: black;
+
+}
+/* Styling introduction part */
+#introduction {
+  display: flex;
+  align-items: center;
+
+}
+.intro {
+  width: 50%;
+
+}
+.intro h2  {
+  font-size: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.callto-action-btn  {
+  background-color: rgb(49, 143, 49);
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+.intro-img {
+  width: 50%;
+
+}
+.portrait {
+  width: 100%;
+  height: 500px;
+
+}
+
+/*Styling About Me part*/
+#about-details {
+  display: flex;
+  gap: 20px;
+}
+#about-details p {
+  line-height: 1.5;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+}
+
+/*Styling the Education part*/
+#education,
+#projects {
+  background-color: rgb(60, 156, 60);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 4px;
+  height: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.university,
+.plp-academy,
+.high-sch,
+.project {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 4px rgb(123, 122, 122);
+  border-radius: 8px;
+  width: 350px;
+  height: 250px;
+  
+}
+
+/*Styling languages part*/
+#languages,
+#projects {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+
+}
+#languages p {
+  margin: 0;
+
+}
+.programming-languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.PHP {
+  font-size: 32px;
+  font-family: 'Courier New', monospace;
+  transform: rotate(-5deg);
+
+}
+.Laravel {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  transform: rotate(3deg);
+  color: rgb(3, 127, 3);
+  font-weight: bold;
+
+}
+.C {
+  font-size: 24px;
+  font-family: 'Georgia', serif;
+  transform: skewX(10deg);
+
+}
+.c-sharp {
+  font-size: 20px;
+  font-family: 'Verdana', sans-serif;
+  transform: rotate(5deg);
+  font-style: italic;
+  color: rgb(3, 127, 3);
+
+}
+.Java {
+  font-size: 28px;
+  font-family: 'Trebuchet MS', sans-serif;
+  transform: rotate(-2deg);
+  font-weight: bold;
+
+}
+.github {
+  font-size: 30px;
+  font-family: 'Courier New', monospace;
+  transform: rotate(-5deg);
+  text-shadow: 1px 1px 2px #ccc;
+  color: rgb(3, 127, 3);
+
+}
+.JavaScript {
+  font-size: 30px;
+  font-family: 'Lucida Console', monospace;
+  transform: scale(1.1);
+  opacity: 0.9;
+
+}
+.Python {
+  font-size: 22px;
+  font-family: 'Palatino Linotype', serif;
+  transform: rotate(8deg);
+  text-shadow: 1px 1px 2px #ccc;
+  color: rgb(3, 127, 3);
+
+}
+.AI-ML {
+  font-size: 26px;
+  font-family: 'Tahoma', sans-serif;
+  transform: skewY(-5deg);
+
+}
+.git {
+  font-size: 16px;
+  font-family: 'Impact', sans-serif;
+  transform: translateY(5px) rotate(-7deg);
+  letter-spacing: 4px;
+  color: rgb(3, 127, 3);
+}
+.MySQL {
+  font-size: 20px;
+  font-family: 'Garamond', serif;
+  transform: rotate(12deg);  
+
+}
+.Figma {
+  font-size: 34px;
+  font-family: 'Comic Sans MS', cursive;
+  transform: scale(0.95) rotate(-3deg);
+  text-shadow: 1px 1px 2px #ccc;
+  color: rgb(3, 127, 3);
+
+}
+
+/*Styling Projects part*/
+.project {
+  padding: 8px 14px;
+  height: 300px;
+}
+.project a {
+  text-decoration: underline;
+  color: green;
+}
+
+/*Styling Interests part*/
+#interests {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 50px;
+
+}
+.technical,
+.non-technical {
+  background-color: rgb(60, 156, 60);
+  box-shadow: 1px 1px 4px rgb(123, 122, 122);
+  border-radius: 8px;
+  width: 350px;
+  height: 250px;
+  color: white;
+  padding: 8px 10px;
+
+}
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 8px;
+}
+#interests h4 {
+  font-size: 20px;
+}
+
+/*Styling Contacts part*/
+#contacts p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+
+/*Styling footer*/
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
