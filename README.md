@@ -1,75 +1,79 @@
-# Personal-Portfolio
-## 🔗 Live Demo
+# 🌐 Nadifa Abdigani – Personal Portfolio Website
+
+Welcome to my personal portfolio website!  
+This is a responsive site built with **HTML5** and **CSS3**, designed to showcase:
+
+- My background
+- Education
+- Skills in programming
+- Projects I’ve worked on
+- Interests
+- Contact information
 
 ---
 
-```markdown
-# 🌐 Nadifa Abdigani – Personal Portfolio Website
+## 🚀 Live Site
 
-This is a responsive personal portfolio website built using **HTML5** and **CSS3**, showcasing about me, my education background, programming languages I know, projects I've worked on, interests and contact information.
+Check out the live version hosted on Netlify:  
+🔗 [https://enchanting-kelpie-c255e0.netlify.app](https://enchanting-kelpie-c255e0.netlify.app)
 
 ---
 
 ## 📁 Project Structure
 
-```
-
 .
 ├── index.html
 ├── style.css
-├── images/
-│   ├── me.jpeg
-│   ├── location.jpeg
-│   ├── student.jpeg
-│   ├── calendar.jpeg
-│   ├── github.jpeg
-│   └── linkedIn.jpeg
-
-```
+└── images/
+├── me.jpeg
+├── location.jpeg
+├── student.jpeg
+├── calendar.jpeg
+├── github.jpeg
+└── linkedIn.jpeg
 
 ---
 
 ## ✨ Features
 
-- ✅ Fully responsive (mobile, tablet, desktop)
-- ✅ Clean UI and layout
-- ✅ Organized sections:
+- ✅ Responsive design for mobile, tablet, and desktop
+- ✅ Organized layout with clean sections:
   - Introduction
   - About Me
-  - Education Background
-  - Programming Languages & Tools
+  - Education
+  - Programming Languages
   - Projects
   - Interests
-  - Contact Information
-- ✅ Hover and interactive styling
-- ✅ Linked GitHub project repositories
+  - Contact
+- ✅ Interactive hover effects
+- ✅ GitHub and LinkedIn integration
 
 ---
 
-## 🖥️ Technologies Used
+## 🛠️ Technologies Used
 
 - HTML5
-- CSS3 (with media queries)
-- Responsive layout techniques
+- CSS3 (media queries)
+- Font Awesome (icons)
 
 ---
 
-## 📱 Responsive Design
+## 📱 Device Compatibility
 
-| Device        | Layout                                  |
-|---------------|------------------------------------------|
-| 📱 Mobile      | Stacked layout, simplified nav, hidden image |
-| 📱 Tablet/iPad | Two-column sections, readable spacing   |
-| 💻 Desktop     | Full layout with side-by-side sections  |
+| Device        | Layout Style                          |
+|---------------|----------------------------------------|
+| 📱 Mobile      | Stacked layout, simplified design      |
+| 📱 Tablet/iPad | Two-column layout, readable spacing   |
+| 💻 Desktop     | Full layout with side-by-side sections |
 
 ---
 
 ## 📬 Contact
 
-- 📧 Email: [nadifaabdigani04@gmail.com](mailto:nadifaabdigani04@gmail.com)
-- 📞 Phone: +254 746 902980
-- 💼 [LinkedIn](https://www.linkedin.com/in/nadifa-hussein-801074325/)
-- 💻 [GitHub](https://github.com/Nadifa00)
+- Email: [nadifaabdigani04@gmail.com](mailto:nadifaabdigani04@gmail.com)
+- Phone: +254 746 902980
+- LinkedIn: [linkedin.com/in/nadifa-hussein-801074325](https://www.linkedin.com/in/nadifa-hussein-801074325/)
+- GitHub: [github.com/Nadifa00](https://github.com/Nadifa00)
 
 ---
 
