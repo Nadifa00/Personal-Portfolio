@@ -19,16 +19,18 @@
   margin-bottom: 80px;
 }
 
-
+@media (min-width: 1024px) {
 .website {
   margin: 10px 14px;
-  box-shadow: 4px 4px 10px rgb(218, 216, 216);
+  box-shadow: 1px 1px 8px rgb(218, 216, 216);
   padding: 8px 10px;
   border-radius: 10px;
 
 }
+}
 .header {
   display: flex;
+  gap: 10px;
   align-items: center;
   justify-content: space-between;
   border-bottom: solid 1px green;
@@ -96,6 +98,7 @@ a {
 #projects {
   background-color: rgb(60, 156, 60);
   display: flex;
+  gap: 20px;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
@@ -222,9 +225,12 @@ a {
 }
 
 /*Styling Projects part*/
+#projects {
+  height: auto;
+}
 .project {
   padding: 8px 14px;
-  height: 300px;
+  height: 100%;
 }
 .project a {
   text-decoration: underline;
@@ -266,6 +272,7 @@ li {
 
 
 /*Styling footer*/
+@media (min-width: 1024px) {
 .footer {
   display: flex;
   justify-content: center;
@@ -273,4 +280,144 @@ li {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
 
+}
+}
+
+/*Responsive Design*/
+/*Styling for Mobile phones*/
+@media (min-width: 320px) and (max-width: 600px) {
+  .header {
+    border-bottom: none;
+  }
+  .header a {
+    display: none;
+    
+  }
+  .website {
+    box-shadow: none;
+    padding: 4px;
+
+  }
+  #introduction {
+    margin-bottom: 30px;
+  }
+  .portrait {
+    display: none;
+  }
+  
+  .intro h2 {
+    font-size: 15px;
+  }
+  .callto-action-btn {
+    padding: 3px 6px;
+    font-size: 16px;
+
+  }
+/*General Styling*/
+  #about-me h2,
+  #languages h2,
+  #projects h2,
+  #interests h2,
+  #contacts h2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family:monospace;
+    color: green;
+    
+  }
+  #about-details {
+    flex-direction: column;
+  }
+  #education,
+  #projects,
+  #languages {
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+    height: auto;
+  }
+
+  .university,
+  .plp-academy,
+  .high-sch,
+  .project {
+    width: 100%;
+    height: auto;
+  }
+
+  #interests {
+    flex-direction: column;
+    padding: 0 10px;
+    gap: 20px;
+    margin-right: 18px;
+  }
+
+  .technical, .non-technical {
+    width: 100%;
+    height: auto;
+    
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  /* Styling for Tablets and iPads */
+@media (min-width: 601px) and (max-width: 1023px) {
+  .header {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  #introduction {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .intro, .intro-img {
+    width: 100%;
+  }
+  .intro h2 {
+    font-size: 26px;
+  }
+  .callto-action-btn {
+    font-size: 18px;
+    padding: 6px 12px;
+  }
+  #about-details {
+    flex-direction: column;
+  }
+  #education,
+  #projects {
+    flex-direction: column;
+    height: auto;
+  }
+  .university,
+  .plp-academy,
+  .high-sch,
+  .project {
+    width: 100%;
+    height: auto;
+  }
+  #languages {
+    flex-direction: column;
+  }
+  .programming-languages {
+    justify-content: center;
+  }
+  .technical, .non-technical {
+    width: 100%;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+
+ 
 }
