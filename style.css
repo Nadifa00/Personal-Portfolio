@@ -419,15 +419,5 @@ li {
       gap: 50px;
     }
   }
-  @media(min-width: 700px) and (max-width: 1400px) {
-    #interests{
-      flex-direction: column;
-      gap: 30px;
-    }
-    .technical,
-    .non-technical {
-      height: auto;
-    }
-  }
-  
+
 
