@@ -1,9 +1,6 @@
 # Personal-Portfolio
 ## 🔗 Live Demo
 
-On Netlify; 
-https://enchanting-kelpie-c255e0.netlify.app/
-
 ---
 
 ```markdown
